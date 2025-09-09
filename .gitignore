@@ -1,0 +1,36 @@
+# Ignore .env (sensitive environment variables)
+.env
+
+# Ignore IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Ignore build directories
+/target/
+/build/
+/out/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+# Ignore test reports
+/test-output/
+
+# Ignore compiled class files
+*.class
+
+# Ignore Maven Wrapper files (optional)
+.mvn/wrapper/maven-wrapper.jar
